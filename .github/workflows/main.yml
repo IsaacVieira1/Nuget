@@ -9,23 +9,22 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-steps:
-  - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-  - name: set up .NET Core
-    uses: actions/setup-dotnet@v1
-    with:
-      dotnet-version: '6.0.x'
-  
-  - name: build with dotnet
-    run: dotnet build --configuration Release
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
       
-  - name: test
-    run: dotnet test 
-  
-  - name: Create the package
-    run: dotnet pack --configuration Release 
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
+        
+      - name: Test
+        run: dotnet test 
+      
+      - name: Create the package
+        run: dotnet pack --configuration Release 
 
-  - name: Publish
-    run: dotnet nuget push  MoneyExtension/bin/Release/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_TOKEN }}
- 
+      - name: Publish
+        run: dotnet nuget push MoneyExtension/bin/Release/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_TOKEN }}
