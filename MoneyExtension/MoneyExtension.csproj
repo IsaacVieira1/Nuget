@@ -13,7 +13,7 @@
     <PackageDescription>Extension to convert decimal to integer</PackageDescription>
     <Description>Extension to convert decimal to integer</Description>
     <RepositoryUrl>https://github.com/IsaacVieira1/Nuget.git</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/IsaacVieira1/Nuget.gits</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/IsaacVieira1/Nuget.git</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>money;int;decima;converter</PackageTags>
