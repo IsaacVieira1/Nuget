@@ -5,11 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>MoneyExtensions</PackageId>
+    <PackageId>MoneyExtensionApp</PackageId>
     <Version>1.0.0</Version>
     <License>MIT</License>
-    <Authors>André Baltieri</Authors>
-    <Company>balta.io</Company>
+    <Authors>IsaacVieira</Authors>
+    <Company>Isaac.io</Company>
     <PackageDescription>Extension to convert decimal to integer</PackageDescription>
     <Description>Extension to convert decimal to integer</Description>
     <RepositoryUrl>https://github.com/IsaacVieira1/Nuget.git</RepositoryUrl>
@@ -17,7 +17,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>money;int;decima;converter</PackageTags>
-    <Title>MoneyExtensions</Title>
+    <Title>MoneyExtensionApp</Title>
     <Summary>Extension to convert decimal to integer</Summary>
   </PropertyGroup>
 
