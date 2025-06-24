@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>IsaacVieira.MoneyExtensions</PackageId>
-    <Version>1.0.1</Version>
+    <PackageId>MoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
     <License>MIT</License>
     <Authors>André Baltieri</Authors>
     <Company>balta.io</Company>
